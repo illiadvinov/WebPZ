@@ -1,0 +1,91 @@
+
+
+body{
+        align-items: center;
+        /*overflow: hidden;*/
+        justify-content: center;
+        color: #555;
+        background: #ecf0f3;
+}
+
+/*.m.s {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin: 20px 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255,0.05);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(15px);
+}*/
+
+#main_p {
+        min-height: calc(100vh - 100px)
+}
+
+.cards {
+        display: flex;
+        position: relative;
+        
+}
+
+#mt {
+        color:rgb(238, 236, 236);       
+}
+.name {
+        margin-top: 10%;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 25px;
+        
+        
+
+}
+
+ #M {
+          background-image: url("../images/machineS.png");
+          background-size: cover;
+          box-shadow: 13px 13px 20px #cbd1cf,
+          -13px -13px 20px #ffffff;
+ }
+ 
+ #video {
+         position: absolute;
+ }
+.neo {
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 300px; 
+        height: 350px;
+        /*padding: 100px 35px 80px 35px;*/
+
+        border-radius: 40px;
+        position: relative;
+        box-shadow: 13px 13px 20px #cbd1cf,
+                    -13px -13px 20px #ffffff;
+
+}
+.button {
+        width: 90px;
+        letter-spacing: 1.5px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        border-radius: 40px;
+        color: #FFFFFB;
+        padding: 10px 35px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;    
+        position: absolute;
+        bottom: 30px;
+        background-image: linear-gradient(45deg, rgb(94, 231, 208) , rgb(49, 180, 212));
+        left: 50%;
+        transform: translateX(-50%);
+        
+}
+
+#footer {
+        margin-top: -0px;
+}
