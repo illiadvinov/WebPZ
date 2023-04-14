@@ -1,107 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap");
 
-body{
-   
-    overflow: overlay;
+body {
+  overflow: overlay;
 }
 
 body::-webkit-scrollbar {
-    background: transparent;
-  }
+  background: transparent;
+}
 
 * {
-    margin: 0;
-    padding: 0;
-   
-    
+  margin: 0;
+  padding: 0;
 }
 @font-face {
-    font-family: 'Aachen';
-    src: url('fonts/13309-webfont.woff2') format('woff2'),
-         url('fonts/13309-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "Aachen";
+  src: url("fonts/13309-webfont.woff2") format("woff2"),
+    url("fonts/13309-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
+.ig {
+  margin: 5px;
+  width: 150px;
 
- .ig{
-     margin: 5px;
-     width: 150px;
-    
-     position: absolute;
- }
- .vid{
-     position: fixed;
-     width: 320px;
-     height: 240px;
-     
- }
+  position: absolute;
+}
+.vid {
+  position: fixed;
+  width: 320px;
+  height: 240px;
+}
 
 #header a {
-    float:none;
-    color: #FFFFFB;
+  float: none;
+  color: #fffffb;
   text-align: center;
   padding: 15px 25px;
   text-decoration: none;
   font-size: 23px;
-  font-family: 'Alegreya Sans', sans-serif;
-
+  font-family: "Alegreya Sans", sans-serif;
 }
 #header a.na:hover {
-    animation-name: header;
-    animation-duration: 1.5s;
-    background-color: #2AB7CA;
+  animation-name: header;
+  animation-duration: 1.5s;
+  background-color: #2ab7ca;
+  color: #3a3a39;
+  border-bottom: 2px;
+  border-radius: 10px;
+}
+#header a.active {
+  border-radius: 10px;
+  background-color: #259be4;
+  color: #fffffb;
+}
+@keyframes header {
+  0% {
+    background-color: #8eedf7;
+    color: #fffffb;
+  }
+  100% {
+    background-color: #2ab7ca;
     color: #3a3a39;
-    border-bottom: 2px;
-    border-radius: 10px;
   }
-  #header a.active {
-    border-radius: 10px;
-    background-color: #259be4;
-    color: #FFFFFB;
-    
-  }
-  @keyframes header{
-      0% {background-color: #8EEDF7; color:#FFFFFB}
-      100%{background-color: #2AB7CA; color: #3a3a39}
-  }
- 
-
-#header{
-    border-bottom: 2px solid #7cd2db;
-    
-    text-align: center;
-    
-}
-#header, #footer{
-    
-    width: 100%;
-    height: 90px;
-    
-    
-    background-color: #8EEDF7;
-    color: #000000;
-    line-height: 90px;
-    
 }
 
+#header {
+  border-bottom: 2px solid #7cd2db;
+
+  text-align: center;
+}
+#header,
+#footer {
+  width: 100%;
+  height: 90px;
+
+  background-color: #8eedf7;
+  color: #000000;
+  line-height: 90px;
+}
 
 #main {
-    width: auto;
-    height: autopx; 
-    text-align: center;       
+  width: auto;
+  height: autopx;
+  text-align: center;
 }
 
 #us {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-
-
-
-
-
-
 
 /*#aside {
     width: 20%;
@@ -112,67 +99,57 @@ body::-webkit-scrollbar {
 }*/
 
 .ids {
-    width: 15%;
-    left: -50px;
-    position: absolute;
-    
-    
+  width: 15%;
+  left: -50px;
+  position: absolute;
 }
-
 
 #footer {
-
-     left: 0;
-     bottom: 0;
+  left: 0;
+  bottom: 0;
   width: 100%;
-    border-top: 2px solid #5c5c5c;
-    margin-top: px;
-    width: 100%;
-    height: 150px;
-    background-color: #333131;
-    color: white;
-    
- }
- .footPr {
-    color: #dbd4d4;
-    left: 25px;
-    bottom: -85px;
-    position: relative;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-top: 2px solid #5c5c5c;
+  margin-top: px;
+  width: 100%;
+  height: 150px;
+  background-color: #333131;
+  color: white;
+}
+.footPr {
+  color: #dbd4d4;
+  left: 25px;
+  bottom: -85px;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #fl {
-    margin-top: 10px;
-    width: 200px;
-    position: absolute;
-
+  margin-top: 10px;
+  width: 200px;
+  position: absolute;
 }
 #address {
-       
-    margin: auto;
+  margin: auto;
 }
 #inst {
-    width: 40px;
-    position: absolute;
-    left: 250px;
-    margin-top: 15px;
+  width: 40px;
+  position: absolute;
+  left: 250px;
+  margin-top: 15px;
 }
 #face {
-    width: 43px;
-    position: absolute;
-    left: 300px;
-    margin-top: 11px;
+  width: 43px;
+  position: absolute;
+  left: 300px;
+  margin-top: 11px;
 }
 .address {
-    color: ivory;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height:200%;
-    list-style-type: none;
-    position: absolute;
-    right: 50px;
-    margin-top: 25px;
-    text-align: center;
-    
+  color: ivory;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 200%;
+  list-style-type: none;
+  position: absolute;
+  right: 50px;
+  margin-top: 25px;
+  text-align: center;
 }
-
-
-
