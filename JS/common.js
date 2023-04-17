@@ -2,22 +2,22 @@ class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <a href="#index">
-        <image src="../images/profstroylogo.png" alt="Лого" class="ig"></image>
+        <image src="../images/profstroylogo.png" alt="Лого" class="headerLogo"></image>
     </a>
 
     <header id="header">
         <a class = ${
-          document.title == "Main" ? "active" : "na"
-        } href="../html/index.html">Главная</a>
+          document.title == "Main" ? "active" : "nonActive"
+        } href="../html/homePage.html">Главная</a>
         <a class = ${
-          document.title == "About" ? "active" : "na"
-        } href="../html/about.html">О нас</a>
+          document.title == "About" ? "active" : "nonActive"
+        } href="../html/aboutPage.html">О нас</a>
         <a class = ${
-          document.title == "Price" ? "active" : "na"
-        } href="../html/price.html">Цены</a>
+          document.title == "Price" ? "active" : "nonActive"
+        } href="../html/pricePage.html">Цены</a>
         <a class = ${
-          document.title == "Contacts" ? "active" : "na"
-        } href="../html/contacts.html">Контакты</a>
+          document.title == "Contacts" ? "active" : "nonActive"
+        } href="../html/contactsPage.html">Контакты</a>
     </header>
         `;
   }
@@ -48,4 +48,4 @@ class MyFooter extends HTMLElement {
   }
 }
 
-customElements.define("my-footer", MyFooter)
+customElements.define("my-footer", MyFooter);

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Raleway:wght@200&display=swap');
+
+body {
+    background: rgb(2,0,36);
+   background: linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(0,212,255,1) 100%);
+   background-attachment: fixed;
+   
+
+}
+
+#main_a  {
+    
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 3px;
+    
+
+}
+
+#main_a h1.h {
+    animation-name: h_a;
+    animation-duration: 3s;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+}
+@keyframes h_a {
+    0%{opacity: 0%;}
+    100%{opacity: 100%;}
+}
+
+#main_a p {
+    width: 70%;
+    margin:auto;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFB;
+    font-size: 110%;
+    margin-bottom: 70px;
+}
+
+#main_a ul {
+    
+    margin: auto;
+    width: 50%;
+    list-style-type: disc;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFB;
+    
+}
+#ll {
+    margin-bottom: 50px;
+}
+
+.list {
+    margin-bottom: 20px;
+}
+.list1 {
+    margin-bottom: 70px;
+}
+
+
+
+
